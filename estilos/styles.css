@@ -50,13 +50,17 @@ a{
 .menu{
 	width: 100%;
 	margin: 0 auto;
-	padding-left: 8%;
+	height: 204px;
+	padding-left: 20%;
 	background: #EAEDED;
 	border-bottom: 1px solid #566573;
 	border-top: 1px solid #566573;
 }
 .boton-menu{
+	border: 2px solid #D5D8DC;
+	float: left;
 	margin: 0 auto;
+	padding: 0;
 	width: 150px; 
    	height: 200px; 
    	background: #7D3C98;
@@ -65,6 +69,9 @@ a{
    	-o-transform: skew(-25deg);
 }
 .boton-letras{ 
+	margin: 0 auto;
+	padding: 35% 0 40% 0;
+	font-size: 200%;
 	color: #F4F6F6;
    	background: transparent;
    	-webkit-transform: rotate(-89deg); 
