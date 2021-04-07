@@ -8,7 +8,7 @@
 		<!--		ESTILOS		-->
 		<link rel="stylesheet" type="text/css" href="estilos/styles.css">
 	</head>
-	<body>
+	<body background="IMAGENES/fondo.jpg">
 		<header>
 			<ul class="nosotros">
 				<li>
@@ -32,24 +32,34 @@
 		</header>
 			
 		<div class="titulo">
-			<img src="IMAGENES/el-sofa-del-zombie.png">
+			<a href="elsofadelzombie.html"><img src="IMAGENES/el-sofa-del-zombie_2.png"></a>
 		</div>
 		<div class="menu">
-			<div class="boton-menu">
-				<div class="boton-letras"><a href="#">Musica</a></div>
-			</div>
-			<div class="boton-menu">
-				<div class="boton-letras"><a href="#">Radio</a></div>
-			</div>
-			<div class="boton-menu">
-				<div class="boton-letras"><a href="#">Blog</a></div>
-			</div>
-			<div class="boton-menu">
-				<div class="boton-letras"><a href="#">Video</a></div>
-			</div>
-			<div class="boton-menu">
-				<div class="boton-letras"><a href="#">Offtopic</a></div>
-			</div>
+			<a href="musica.html">
+				<div class="boton-menu" id="musica">
+					<div class="boton-letras">Musica</div>
+				</div>
+			</a>
+			<a href="#">
+				<div class="boton-menu" id="radio">
+					<div class="boton-letras">Radio</div>
+				</div>
+			</a>
+			<a href="#">
+				<div class="boton-menu" id="blog">
+					<div class="boton-letras">Blog</div>
+				</div>
+			</a>
+			<a href="#">
+				<div class="boton-menu" id="video">
+					<div class="boton-letras">Video</div>
+				</div>
+			</a>
+			<a href="#">
+				<div class="boton-menu" id="offtopic">
+					<div class="boton-letras">Offtopic</div>
+				</div>
+			</a>
 			<!--
 			<a href="musica.html"><img src="IMAGENES/menu-musica.png"></a>
 			<a href="radio.html"><img src="IMAGENES/menu-radio.png"></a>
@@ -76,16 +86,20 @@
 					</li>
 				</ul>
 			</div>
+
 			<div class="content">
-				<h2>Contenido Inicial</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-				</p>
+				<div class="publicaciones">
+					<h2>Contenido Inicial</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</p>
+				</div>
 			</div>
+
 			<div class="sidebarD">
 				<h3>Support</h3>
 				<ul>
@@ -101,6 +115,9 @@
 				</ul>
 			</div>
 		</div>
-		<div class="footer">Pie de pagina</div>
+		<div class="clearfix-padding"></div>
+		<div class="footer">
+			<a href="#">&copy Arusoft</a>
+		</div>
 	</body>
 </html>
